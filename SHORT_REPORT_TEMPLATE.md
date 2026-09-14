@@ -9,9 +9,9 @@
 ## 1. GENERAL INFORMATION & DELIVERABLE LINKS
 * **Team Members:**
   1. Bui Dang Trung Kien — Student ID: [23IT.B102] — Role: [Team Lead / Full-stack] — Contribution: [100%]
-* **🔗 Live Demo URL:** [`https://your-demo.pages.dev`](https://your-demo.pages.dev)
-* **💻 GitHub Repository:** [`https://github.com/username/vku-field-survey`](https://github.com/username/vku-field-survey)
-* **🎥 Video Demo (Optional):** [`https://youtu.be/xxx`](https://youtu.be/xxx)
+* **🔗 Live Demo URL:** [`mini-project1-rouge.vercel.app`](mini-project1-rouge.vercel.app)
+* **💻 GitHub Repository:** [`https://github.com/kienbuisoarigvietnam/mini-project1`](https://github.com/kienbuisoarigvietnam/mini-project1)
+* **🎥 Video Demo (Optional):** [`https://youtube.com/shorts/p4c_Gc7LJsI`](https://youtube.com/shorts/p4c_Gc7LJsI)
 
 ---
 
