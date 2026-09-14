@@ -81,14 +81,14 @@ vku-field-survey/
 ## 4. EMPIRICAL EVIDENCE & SCREENSHOTS
 _(Insert 3–4 annotated screenshots of the application running on an emulator or physical device.)_
 
-> 🖼 **Figure 1 — Dashboard** showing `Online` badge, tabs (Tất cả / Nháp / Chờ sync / Hoàn tất), and survey cards with status badges.
+## 4. EMPIRICAL EVIDENCE & SCREENSHOTS
 
-> 🖼 **Figure 2 — Multi-step Form (Step 3: Rating)** with 5-star widget and condition label. Auto-save to IndexedDB is active (`debouncedDraft`).
-
-> 🖼 **Figure 3 — Offline Simulation** (`navigator.offline` toggled in DevTools). `Offline` red badge visible; submitting a form writes to IndexedDB with `PENDING_SYNC`. On reconnection, `⏳ N` chip decreases as items flush to server.
-
-> 🖼 **Figure 4 — Installed Standalone App** (Left: Android APK via Capacitor, Right: Chrome "Add to Home Screen"). Fullscreen, no browser chrome, offline boot works after first visit.
-
+| Status / Action | Image |
+| :--- | :--- |
+| **Offline Mode** *(Wait for sync)* | ![Offline - Wait for sync](https://github.com/kienbuisoarigvietnam/mini-project1/blob/main/Screenshot%20from%202026-09-14%2015-24-48.png?raw=true) |
+| **Online Mode** *(Sync succesfully)* | ![Online - Synced](https://github.com/kienbuisoarigvietnam/mini-project1/blob/main/Screenshot%20from%202026-09-14%2015-24-59.png?raw=true) |
+| **Take photo** | ![Take photo](https://github.com/kienbuisoarigvietnam/mini-project1/blob/main/Screenshot%20from%202026-09-14%2015-28-06.png?raw=true) |
+| **Basic Information** | ![Basic Information](https://github.com/kienbuisoarigvietnam/mini-project1/blob/main/Screenshot%20from%202026-09-14%2015-29-05.png?raw=true) |
 ---
 
 ## 5. TECHNICAL CHALLENGES & RESOLUTIONS
