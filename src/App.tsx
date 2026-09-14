@@ -1,0 +1,19 @@
+import { Routes, Route, Navigate } from 'react-router-dom';
+import AppLayout from './components/AppLayout';
+import Dashboard from './pages/Dashboard';
+import SurveyForm from './pages/SurveyForm';
+import SurveyDetail from './pages/SurveyDetail';
+
+export default function App() {
+  return (
+    <Routes>
+      <Route element={<AppLayout />}>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/new" element={<SurveyForm />} />
+        <Route path="/survey/:id" element={<SurveyDetail />} />
+        <Route path="/survey/:id/edit" element={<SurveyForm />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Route>
+    </Routes>
+  );
+}
